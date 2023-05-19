@@ -8,6 +8,7 @@ const [count,setCount]=useState(0)
 
 const handleCount=()=>{
   setCount(count+1);
+
 }
 
 
@@ -16,7 +17,7 @@ const handleCount=()=>{
     <div>
         {/* Do not remove the main div */}
         <p>Button clicked {count} times</p>
-        <button onClick={handleCount}></button>
+        <button onClick={handleCount}>Click Me</button>
     </div>
   )
 }
